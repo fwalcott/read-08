@@ -5,14 +5,14 @@
 A comparison operator evaluates conditions :
 
 **They are Eight Comparison Operators:** 
-***equal to*** ==  (3=='3') *true*
-***strick equal to*** ===  (3==='3') *false.* 3 is a number and '3' a string. Strick equal is the industry standard, so you don't get bugs in your code. 
-***not equal*** != ('hello' != 'goodbye') *true*  
-***strick not equa***l !== (3 !== 3) *false* Strick  not equal is also the industry standard. Use it rather then != when possible
-***greater than*** > (4<3) *false* 
-***less than*** < (4<3) *true* 
-***greater than or equal t***o >= (4>3) *true* 
-***less than or equal to*** <= (3<=3) *true* 
+1. ***equal to*** ==  (3=='3') *true*
+2. ***strick equal to*** ===  (3==='3') *false.* 3 is a number and '3' a string. Strick equal is the industry standard, so you don't get bugs in your code. 
+3. ***not equal*** != ('hello' != 'goodbye') *true*  
+4. ***strick not equa***l !== (3 !== 3) *false* Strick  not equal is also the industry standard. Use it rather then != when possible
+5. ***greater than*** > (4<3) *false* 
+6. ***less than*** < (4<3) *true* 
+7. ***greater than or equal t***o >= (4>3) *true* 
+8. ***less than or equal to*** <= (3<=3) *true* 
 
 Logical operators allow you to **compare two or more statements.** They are three logical operators: 
 
