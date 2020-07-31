@@ -14,7 +14,7 @@ A comparison operator evaluates conditions :
 7. ***greater than or equal t***o >= (4>3) *true* 
 8. ***less than or equal to*** <= (3<=3) *true* 
 
-Logical operators allow you to **compare two or more statements.** They are three logical operators: 
+### Logical operators allow you to compare two or more statements. They are three logical operators: 
 
 Logical and (&&) both expressions need to be true to evaluate as true. 
 ~~~
