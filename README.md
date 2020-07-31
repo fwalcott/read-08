@@ -16,30 +16,29 @@ A comparison operator evaluates conditions :
 
 ### Logical operators allow you to compare two or more statements. They are three logical operators: 
 
-Logical and (&&) both expressions need to be true to evaluate as true. 
+1. Logical and (&&) both expressions need to be true to evaluate as true. 
 ~~~
 ((2<5) && (3>=1)) true 
 ~~~ 
 
-Logical or (||) if either expression is true, the expression is true. 
-Only if both expressions are false will evaluate as false. 
+2.Logical or (||) if either expression is true, the expression is true. Only if both expressions are false will evaluate as false. 
 ~~~
 ((2<5) || (2<1)) true  
 ~~~ 
 
-Logical not (!) take a single boolean value and inverts it. If it was false without the logical not, it is now true and vice versa.  
+3.Logical not (!) take a single boolean value and inverts it. If it was false without the logical not, it is now true and vice versa.  
 ~~~
 !(2<1) true
 ~~~
-Logical expressions read from left to right. If the first condition provides enough information, then the second is not evaluated. 
+### Logical expressions read from left to right. If the first condition provides enough information, then the second is not evaluated. 
 ~~~
 ex) false && anything 
 ~~~
-The expression had found a false condition and cannot both be true. The second condition isn't evaluated.
+***The expression had found a false condition and cannot both be true. The second condition isn't evaluated.
 ~~~
 ex) true || anything 
 ~~~
-The expression had found a true condition, and only one has to be true. The second condition isn't evaluated.  
+***The expression had found a true condition, and only one has to be true. The second condition isn't evaluated.  
 
 ## What is a loop? 
 
